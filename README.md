@@ -22,3 +22,16 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Docker up
+
+```docker compose up -d```
+
+Docker reset
+```docker compose down -v```
+
+Rails Setup DB
+```
+rails db:migrate
+```
