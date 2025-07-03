@@ -99,3 +99,9 @@ jobs:
           name: screenshots
           path: ${{ github.workspace }}/tmp/screenshots
           if-no-files-found: ignore
+
+  self-approve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub Repository Self-Approve Action
+        uses: nicklegan/github-repo-self-approve-action@v1.0.1

@@ -1,2 +1,0 @@
-- name: GitHub Repository Self-Approve Action
-  uses: nicklegan/github-repo-self-approve-action@v1.0.1
