@@ -108,7 +108,7 @@ jobs:
 
       - name: Self-Approve Action
         uses: nicklegan/github-repo-self-approve-action@v1.0.1
-        if: github.actor == 'your-username'
+        if: github.actor == 'ShogoYK'
         with:
           appid: ${{ secrets.APPID }}
           privatekey: ${{ secrets.PRIVATEKEY }}
