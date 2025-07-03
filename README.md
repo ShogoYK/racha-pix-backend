@@ -1,37 +1,32 @@
-# README
+Not too detailed yet, but here we go:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run the DB quickly using docker compose, do 
 
-Things you may want to cover:
+```
+docker compose up -d
+```
 
-* Ruby version
+In case you want to reset your db:
 
-* System dependencies
+```
+docker compose down -v
+```
 
-* Configuration
+Setup your DB
+Run migrations
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Docker up
-
-```docker compose up -d```
-
-Docker reset
-```docker compose down -v```
-
-Rails Setup DB
 ```
 rails db:migrate
+```
+
+Run seeds
+
+```
+rails db:seed
+```
+
+Run your app
+
+```
+rails serve
 ```
