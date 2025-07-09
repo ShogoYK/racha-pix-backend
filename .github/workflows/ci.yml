@@ -104,7 +104,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Self-Approve Action
         uses: nicklegan/github-repo-self-approve-action@v1.0.1
