@@ -12,6 +12,13 @@ In case you want to reset your db:
 docker compose down -v
 ```
 
+Setup the rails project
+Install dependencies
+
+```
+bundle install
+```
+
 Setup your DB
 Run migrations
 
